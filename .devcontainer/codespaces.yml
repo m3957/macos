@@ -3,8 +3,8 @@ services:
     container_name: macos
     image: ghcr.io/dockur/macos
     environment:
-      RAM_SIZE: "half"
-      DISK_SIZE: "max"
+      RAM_SIZE: "8G"
+      DISK_SIZE: "64G"
       CPU_CORES: "max"
     devices:
       - /dev/kvm
